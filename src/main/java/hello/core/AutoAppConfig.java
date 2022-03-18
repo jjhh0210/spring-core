@@ -16,6 +16,7 @@ import org.springframework.context.annotation.FilterType;
 )
 public class AutoAppConfig {
 
+    //컴포넌트스캔(자동빈)과 수동빈 충돌 테스트
 //    @Bean(name = "memoryMemberRepository")
 //    MemberRepository memberRepository() {
 //        return new MemoryMemberRepository();
